@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86699E932866425300CFA069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C8E08828662FD600149731 /* Main.storyboard */; };
+		86699E95286645D300CFA069 /* StopWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86699E94286645D300CFA069 /* StopWatchViewController.swift */; };
 		86C8E08328662FD600149731 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C8E08228662FD600149731 /* AppDelegate.swift */; };
 		86C8E08528662FD600149731 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C8E08428662FD600149731 /* SceneDelegate.swift */; };
 		86C8E08728662FD600149731 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C8E08628662FD600149731 /* ViewController.swift */; };
-		86C8E08A28662FD600149731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C8E08828662FD600149731 /* Main.storyboard */; };
 		86C8E08C28662FD700149731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86C8E08B28662FD700149731 /* Assets.xcassets */; };
 		86C8E08F28662FD700149731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C8E08D28662FD700149731 /* LaunchScreen.storyboard */; };
 		86C8E09A28662FD800149731 /* SegmentedControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C8E09928662FD800149731 /* SegmentedControlTests.swift */; };
 		86C8E0A428662FD800149731 /* SegmentedControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C8E0A328662FD800149731 /* SegmentedControlUITests.swift */; };
 		86C8E0A628662FD800149731 /* SegmentedControlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C8E0A528662FD800149731 /* SegmentedControlUITestsLaunchTests.swift */; };
+		86C8E0B528663CEA00149731 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C8E0B428663CEA00149731 /* TimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86699E94286645D300CFA069 /* StopWatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchViewController.swift; sourceTree = "<group>"; };
 		86C8E07F28662FD600149731 /* SegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C8E08228662FD600149731 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86C8E08428662FD600149731 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		86C8E09F28662FD800149731 /* SegmentedControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegmentedControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C8E0A328662FD800149731 /* SegmentedControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlUITests.swift; sourceTree = "<group>"; };
 		86C8E0A528662FD800149731 /* SegmentedControlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		86C8E0B428663CEA00149731 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				86C8E08228662FD600149731 /* AppDelegate.swift */,
 				86C8E08428662FD600149731 /* SceneDelegate.swift */,
 				86C8E08628662FD600149731 /* ViewController.swift */,
+				86C8E0B428663CEA00149731 /* TimerViewController.swift */,
+				86699E94286645D300CFA069 /* StopWatchViewController.swift */,
 				86C8E08828662FD600149731 /* Main.storyboard */,
 				86C8E08B28662FD700149731 /* Assets.xcassets */,
 				86C8E08D28662FD700149731 /* LaunchScreen.storyboard */,
@@ -231,9 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86699E932866425300CFA069 /* Main.storyboard in Resources */,
 				86C8E08F28662FD700149731 /* LaunchScreen.storyboard in Resources */,
 				86C8E08C28662FD700149731 /* Assets.xcassets in Resources */,
-				86C8E08A28662FD600149731 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86C8E0B528663CEA00149731 /* TimerViewController.swift in Sources */,
 				86C8E08728662FD600149731 /* ViewController.swift in Sources */,
 				86C8E08328662FD600149731 /* AppDelegate.swift in Sources */,
 				86C8E08528662FD600149731 /* SceneDelegate.swift in Sources */,
+				86699E95286645D300CFA069 /* StopWatchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
